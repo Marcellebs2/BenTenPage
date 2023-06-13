@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/130e6d6c32.js" crossorigin="anonymous"></script>
+    <title>Cadastro Alien</title>
+    <link rel="stylesheet" href="stylecadastro.css">
+    <link rel="shortcut icon" href="imagens/Ben10.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="back-container">
+        <div class="back-content">
+            <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
+            <a href="index.htm">Voltar ao início</a>
+        </div>
+    </div>
+    <div class="container-body">
+        <div class="container">
+            <div class="image">
+                <div class="form-box">
+                    <div class="form">
+                        <h2>Cadastro</h2>
+                        <div class="input-box">
+                            <input type="text" id="alien" required>
+                            <label for="alien">Nome do Alien</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" id="especie" required>
+                            <label for="especie">Espécie</label>
+                        </div>
+                        <div class="select-box">
+                            <label for="temporada">Primeira aparição</label>
+                            <select name="temp" id="temporada">
+                                <option value="" selected disabled>Escolha</option>
+                                <option value="ben10">Ben 10 Clássico</option>
+                                <option value="ben10">Ben 10 Força Alienígena</option>
+                                <option value="ben10">Ben 10 Supremacia Alienígena</option>
+                                <option value="ben10">Ben 10 Omniverse</option>
+                            </select>
+                        </div>
+                        <div class="buttons-container">
+                            <button type="button">Enviar</button>
+                            <button type="reset" id="limpar">Limpar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

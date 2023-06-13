@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/130e6d6c32.js" crossorigin="anonymous"></script>
+    <title>AlienX</title>
+    <link rel="stylesheet" href="stylealiens.css">
+    <link rel="shortcut icon" href="imagens/Ben10.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container" id="alienx">
+        <header class="header-container">
+            <div class="logo-content">
+                <a href="index.htm">
+                    <img src="imagens/Ben_10_Reboot_Logo.webp" alt="logo_Ben10">
+                </a>
+            </div>
+            <div class="hamburguer">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            
+            <div class="cadastro">
+                <a href="cadastro.html">Cadastre um Alien</a>
+            </div>
+        </header>
+
+        <script>
+            hamburguer = document.querySelector(".hamburguer");
+            hamburguer.onclick = function(){
+                cadastro = document.querySelector(".cadastro");
+                cadastro.classList.toggle("active");
+            }
+        </script>
+
+        <div class="conteudo-container">
+            <div class="alien">
+                <img src="imagens/AlienX.webp" alt="imagem_AlienX">
+            </div>  
+            <div class="conteudo-content">
+                <h3>Informações gerais:</h3>
+                <p>Espécie: Sapien Celestial</p>
+                <p>Habilidades: Onipotência</p>
+                <hr>
+                <h3>Sobre</h3>
+                <p>O Alien X é um alien humanoide com o corpo que remete ao universo, é controlado por 2 cabeças que decidem o destino do universo.</p>
+            </div>
+        </div>
+
+        <footer class="footer-container">
+            <div class="footer-content">
+                <div class="footer-carac">
+                    <p>Bibliografia:</p>
+                    <a href="http://ben10.fandom.com/pt-br/wiki/Categoria:Alien%C3%ADgenas" target="_blank" rel="noopener noreferrer">Ben10 Universo</a>
+                </div>
+                <div class="footer-carac">
+                    <p>Marcelle Batista Silva</p>
+                    <p>Centro de Ensino Técnico de Brasília</p>
+                    <p>ETB</p>
+                </div>
+                <div class="footer-carac">
+                    <i class="fa-brands fa-github" style="color: #ffffff"></i>
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
